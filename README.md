@@ -14,8 +14,7 @@ sss
 sssss
 sss
 s
-s
-s
+ss
 sssss
 ssssss
 s
