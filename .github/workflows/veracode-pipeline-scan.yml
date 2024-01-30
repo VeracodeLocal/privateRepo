@@ -39,3 +39,14 @@ jobs:
           veracode_policy_name: ${{ inputs.policy_name }}
           file: ./veracode_artifact_directory/${{ env.veracode_artifact }}
           fail_build: true
+  
+  Deploy_to_test:
+    needs: [pipeline_scan]
+    runs-on: ubuntu-latest
+    environment:
+      name: Test
+      url: www.veracode.com
+    name: Veracode IaC/ Deploy_to_test
+    steps:
+     - name: 'no-op'
+       run: echo "::deployed to test environment"
