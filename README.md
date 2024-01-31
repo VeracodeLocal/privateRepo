@@ -11,7 +11,7 @@ srcclr activate
 srcclr scan --url https://github.com/srcclr/example-javascriptsssss
 ```s
 sss
-sssss
+ssssss
 ssss
 s
 ss
